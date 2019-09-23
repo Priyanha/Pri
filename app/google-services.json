@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "864708626801",
+    "firebase_url": "https://newpriyanka-ebba5.firebaseio.com",
+    "project_id": "newpriyanka-ebba5",
+    "storage_bucket": "newpriyanka-ebba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864708626801:android:811c2947d3005860f88ed0",
+        "android_client_info": {
+          "package_name": "com.example.lab5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864708626801-h7shtgh8lvv50lfnqdjcpp2a0dc4f1fb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab5",
+            "certificate_hash": "a6fb5941553faa9b9c6588b80854eaa62225e044"
+          }
+        },
+        {
+          "client_id": "864708626801-6gq7co9p6dbr3oa43ig8e9ers2k7v6g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJW9ccDCCImymRX5LiB1pPr23aqdjU6Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864708626801-6gq7co9p6dbr3oa43ig8e9ers2k7v6g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

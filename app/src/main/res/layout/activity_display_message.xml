@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMessageActivity">
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="88dp"
+        android:onClick="onClick3"
+        android:text="@string/btnDelete"
+        app:layout_constraintStart_toEndOf="@+id/BtnUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/EtConNo" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:onClick="onClick2"
+        android:text="@string/btnUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/EtConNo"
+        tools:layout_editor_absoluteX="220dp" />
+
+    <Button
+        android:id="@+id/Btnshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onClick1"
+        android:text="@string/btnShow"
+        app:layout_constraintStart_toEndOf="@+id/BtnSave"
+        app:layout_constraintTop_toBottomOf="@+id/EtConNo" />
+
+    <EditText
+        android:id="@+id/EtID"
+        android:layout_width="408dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="113dp"
+        android:ems="10"
+        android:hint="@string/txtid"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EtName"
+        android:layout_width="408dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:ems="10"
+        android:hint="@string/txtName"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EtID" />
+
+    <EditText
+        android:id="@+id/EtAddress"
+        android:layout_width="405dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:ems="10"
+        android:hint="@string/txtAddress"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EtName" />
+
+    <EditText
+        android:id="@+id/EtConNo"
+        android:layout_width="409dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:ems="10"
+        android:hint="@string/txtContactNumber"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EtAddress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
